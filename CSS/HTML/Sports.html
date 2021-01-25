@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sports</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../CSS/styles.css">
+
+    <link rel="stylesheet" type="text/css" href="../CSS/css-sports.css">
+
+</head>
+
+<body>
+
+
+
+    <!--Navbar-->
+        <nav class="navbar navbar-light navbar-1 white">
+
+            <!-- Navbar brand -->
+            <a class="navbar-brand" href="index.html">Menu</a>
+
+            <!-- Collapse button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15" aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent15">
+
+                <!-- Links -->
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../HTML/index.html">Home <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../HTML/Sports.html">Teams (current)</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../HTML/Club History.html">Team's History</a>
+                    </li>
+                    <li class="nav-item">
+                        <a onclick="login()" class="nav-link">Adept Zone</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../HTML/Contacts.html">Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../HTML/socio.html">Subscriber</a>
+                    </li>
+                </ul>
+                <!-- Links -->
+
+            </div>
+            <!-- Collapsible content -->
+
+        </nav>
+        <!--/.Navbar-->
+
+
+        <div class="row">
+            <div class="col-sm"></div>
+            <div class="col-sm-3">
+                <p class="texto-block">League of Legends</p>
+                <img id="lol" data-toggle="modal" data-target="#myModal1" src="/PROJETO TW/IMAGENS/league_team.jpg" height="250" width="400">
+            </div>
+            <div class="col-sm-3">
+                <p class="texto-block">CS:GO</p>
+                <img id="csgo" data-toggle="modal" data-target="#myModal2" src="/PROJETO TW/IMAGENS/csgo_team.png" height="250" width="400">
+            </div>
+            <div class="col-sm-3">
+                <p class="texto-block ">Dota 2</p>
+                <img id="dota" data-toggle="modal" data-target="#myModal3" src="/PROJETO TW/IMAGENS/dota2_team.png" height="250" width="400">
+            </div>
+            <div class="col-sm"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm"></div>
+            <div class="col-sm-3">
+                <p class="texto-block ">Rainbow Six: Siege</p>
+                <img id="rainbow" data-toggle="modal" data-target="#myModal4" src="/PROJETO TW/IMAGENS/rainbowsix_team.jpg" height="250" width="400">
+            </div>
+            <div class="col-sm-3">
+                <p class="texto-block ">Fortnite</p>
+                <img id="fortnite" data-toggle="modal" data-target="#myModal5" src="/PROJETO TW/IMAGENS/fortnite_player.jpg" height="300" width="300">
+            </div>
+            <div class="col-sm-3">
+                <p class="texto-block ">PUBG Mobile</p>
+                <img id="pubg" data-toggle="modal" data-target="#myModal6" src="/PROJETO TW/IMAGENS/pubg_team.jpg" height="250" width="400">
+            </div>
+            <div class="col-sm"></div>
+        </div>
+
+
+
+
+        <!-- League of Legends -->
+
+        <div class="modal fade" id="myModal1" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <!-- <h4 class="modal-title">Modal Header</h4> -->
+                    </div>
+                    <div class="modal-body">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Position</th>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Join Date</th>
+                                    <th scope="col">Country</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Top</th>
+                                    <td>Gabriël "Bwipo" Rau</td>
+                                    <td>2018-01-08</td>
+                                    <td>Belgium</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Jungle</th>
+                                    <td>Oskar "Selfmade" Boderek</td>
+                                    <td>2019-11-21</td>
+                                    <td>Poland</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Mid</th>
+                                    <td>Yasin "Nisqy" Dinçer</td>
+                                    <td>2020-11-24</td>
+                                    <td>Belgium</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Bot</th>
+                                    <td>Elias "Upset" Lipp</td>
+                                    <td>2020-11-26</td>
+                                    <td>Germany</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Support</th>
+                                    <td>Zdravets "Hyllisang" Iliev Galabov</td>
+                                    <td>2017-12-14</td>
+                                    <td>Bulgaria</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Head Coach</th>
+                                    <td>Jakob "YamatoCannon" Mebdi</td>
+                                    <td>2020-11-25</td>
+                                    <td>Sweeden</td>
+                                </tr><tr>
+                                    <th scope="row">Assistant Coach</th>
+                                    <td>Gary "Tolki" Mialaret</td>
+                                    <td>2020-11-25</td>
+                                    <td>France</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- CS:GO -->
+
+        <div class="modal fade" id="myModal2" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <!-- <h4 class="modal-title">Modal Header</h4> -->
+                    </div>
+                    <div class="modal-body">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Position</th>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Join Date</th>
+                                    <th scope="col">Country</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>Freddy "KRIMZ" Johansson</td>
+                                    <td>2016-10-24</td>
+                                    <td>Sweeden</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>Jesper "JW" Wecksell</td>
+                                    <td>2017-02-04</td>
+                                    <td>Sweeden</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>Ludvig "Brollan" Brolin</td>
+                                    <td>2018-10-17</td>
+                                    <td>Sweeden</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>Maikil "Golden" Selim</td>
+                                    <td>2020-01-17</td>
+                                    <td>Sweeden</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>Jack "Jackinho" Ström Mattson</td>
+                                    <td>2021-01-12</td>
+                                    <td>Sweeden</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Choach</th>
+                                    <td>Andreas "Samuelsson" Samuelsson</td>
+                                    <td>2019-09-03</td>
+                                    <td>Sweeden</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- Dota 2 -->
+
+        <div class="modal fade" id="myModal3" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <!-- <h4 class="modal-title">Modal Header</h4> -->
+                    </div>
+                    <div class="modal-body">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Position</th>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Join Date</th>
+                                    <th scope="col">Country</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Marc "Raven" Polo Luis Fausto</td>
+                                    <td>2020-07-28</td>
+                                    <td>Philippines</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>Kam "Moon" Boon Seng</td>
+                                    <td>2019-09-04</td>
+                                    <td>Malaysia</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>Natthaphon "Masaros" Ouanphakdee</td>
+                                    <td>2020-11-24</td>
+                                    <td>Thailand</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">4</th>
+                                    <td>Anucha "Jabz" Jirawong</td>
+                                    <td>2020-10-13</td>
+                                    <td>Thailand</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">5</th>
+                                    <td>Djardel "DJ" Mampusti</td>
+                                    <td>2017-04-04</td>
+                                    <td>Philippines</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Coach</th>
+                                    <td>Lee "SunBhie" Jeong-jae</td>
+                                    <td>2019-12-17</td>
+                                    <td>South Korea</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Rainbow 6 -->
+
+        <div class="modal fade" id="myModal4" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <!-- <h4 class="modal-title">Modal Header</h4> -->
+                    </div>
+                    <div class="modal-body">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Position</th>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Join Date</th>
+                                    <th scope="col">Country</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>Etienne "Mag" Rousseau</td>
+                                    <td>2018-04-12</td>
+                                    <td>Australia</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>Jason "Lusty" Chen</td>
+                                    <td>2018-04-12</td>
+                                    <td>Australia</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>Matthew "Acez" McHenry</td>
+                                    <td>2018-04-12</td>
+                                    <td>Australia</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>Patrick "MentalistC" Fan</td>
+                                    <td>2019-11-29</td>
+                                    <td>China</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>Tex "Tex" Thompson</td>
+                                    <td>2019-11-29</td>
+                                    <td>Australia</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>Riley "Stigs" Mills</td>
+                                    <td>2020-04-27</td>
+                                    <td>Australia</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Coach</th>
+                                    <td>Jayden "Dizzle" Saunders</td>
+                                    <td>2018-04-12</td>
+                                    <td>Australia</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- FOrtnite -->
+
+        <div class="modal fade" id="myModal5" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <!-- <h4 class="modal-title">Modal Header</h4> -->
+                    </div>
+                    <div class="modal-body">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Position</th>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Join Date</th>
+                                    <th scope="col">Country</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>Giorgio "POW3R" Calandrelli</td>
+                                    <td>2018-07-15</td>
+                                    <td>Italy</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>Jake "Smeef" Smith</td>
+                                    <td>2019-03-30</td>
+                                    <td>United Kingdom</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>Chris "crr" Williams</td>
+                                    <td>2020-08-21</td>
+                                    <td>United Kingdom</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- PUBG -->
+
+        <div class="modal fade" id="myModal6" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <!-- <h4 class="modal-title">Modal Header</h4> -->
+                    </div>
+                    <div class="modal-body">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Posição</th>
+                                    <th scope="col">Nome</th>
+                                    <th scope="col">Data de Nascimento</th>
+                                    <th scope="col">Nacionalidade</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">IGL</th>
+                                    <td>Mohammed "Owais" Owais Lakhani</td>
+                                    <td>2019-10-18</td>
+                                    <td>India</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Assaulter</th>
+                                    <td>Paritosh "Paritosh" Sharma (substitute)</td>
+                                    <td>2019-10-18</td>
+                                    <td>India</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Assaulter, Support</th>
+                                    <td>Ashish "Ash" Bhatnagar</td>
+                                    <td>2019-11-27</td>
+                                    <td>India</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Sniper, Assualter</th>
+                                    <td>Gaurav "Franky" Rawat</td>
+                                    <td>2020-03-11</td>
+                                    <td>India</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Assaulter, Filter</th>
+                                    <td>Akash "MaxKasH" Anandani</td>
+                                    <td>2020-06-26</td>
+                                    <td>India</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Assaulter</th>
+                                    <td>Ayushman "TheDUDE" Chauhan</td>
+                                    <td>2020-08-??</td>
+                                    <td>India</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Coach</th>
+                                    <td>Pratik "Aurum" Mehra</td>
+                                    <td>2019-11-27</td>
+                                    <td>India</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        </section>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="../JAVASCRIPT/javascript.js"></script>
+</body>
+
+</html>
