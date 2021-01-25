@@ -1,0 +1,12 @@
+.content {
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #FF5F1F,black);
+}
+
+#actual {
+    background: orange;
+}
+
+#form {
+    padding;
+}

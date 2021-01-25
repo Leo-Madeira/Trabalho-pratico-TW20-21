@@ -1,0 +1,18 @@
+body {
+    background-image: linear-gradient(to bottom, #FF5F1F,black);
+    background-repeat: 1;
+    height: 100vh;
+}
+
+header {
+    background-color: #333;
+}
+
+.content div p {
+    color: white;
+}
+
+img {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
